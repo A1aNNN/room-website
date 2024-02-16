@@ -1,10 +1,14 @@
 import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
 import ExperienceCard from './ExperienceCard'
+import TCS from './../images/tcs-square.jpeg'
+import TDS from './../images/tds-square.png'
+import LSI from './../images/lsi-logo.png'
+import UBC from './../images/ubc-logo.png'
 
 const experienceList = [
   {
-    image: "./../images/pfp.jpeg",
+    image: TCS,
     title: "Software Developer Intern at ",
     company: "The Creative Solution",
     location: "Vancouver, BC (October 2023 - Present)",
@@ -14,7 +18,7 @@ const experienceList = [
     ]
   },
   {
-    image: "./../images/pfp.jpeg",
+    image: TDS,
     title: "Web Developer Intern at ",
     company: "The Debtless Students", 
     location: "Vancouver, BC (May 2023 - August 2023)",
@@ -23,7 +27,7 @@ const experienceList = [
     ]
   },
   {
-    image: "./../images/pfp.jpeg",
+    image: LSI,
     title: "Bioinformatics Intern at ",
     company: "UBC Tokuyama Lab",
     location: "Vancouver, BC (May 2022 - December 2022)",
@@ -33,7 +37,7 @@ const experienceList = [
     ]
   },
   {
-    image: "./../images/pfp.jpeg",
+    image: UBC,
     title: "Undergraduate Teaching Assistant at ",
     company: "UBC",
     location: "Vancouver, BC (May 2022 - December 2022)",
