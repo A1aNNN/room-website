@@ -76,6 +76,71 @@
 }
 
 
+/* EXPERIENCES */
+.experiences-section-title {
+  font-size: 30px;
+  font-family: dm-sans;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 65px;
+  padding-bottom: 10px;
+}
+
+.experiences {
+  width: 100%;
+}
+
+.experiences-container {
+  background-color: #E9EFF7;
+  width: 690px;
+  height: 660px;
+  border-radius: 20px;
+  text-align: -webkit-center;
+  margin-left: 80px;
+  margin-top: 100px;
+  height: fit-content;
+  padding-bottom: 30px;
+}
+
+
+/* EXPERIENCE CARD */
+.experience-card-container {
+  margin-top: 35px;
+  width: 85%;
+}
+
+.experience-card-title-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.job-title {
+  font-size: 23px;
+  font-family: dm-sans;
+}
+
+.job-company {
+  color: #314D73;
+  margin-left: 6px;
+  font-size: 23px;
+  font-family: dm-sans;
+  font-weight: bold;
+}
+
+.job-location {
+  margin-top: 6px;
+  font-size: 19px;
+  font-family: dm-sans;
+  text-align: justify;
+}
+
+.job-point {
+  margin-top: 7px;
+  font-size: 16px;
+  font-family: dm-sans;
+  text-align: justify;
+}
+
 
 
 
