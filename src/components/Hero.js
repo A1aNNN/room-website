@@ -3,15 +3,15 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <Box>
-        <Text>
-            Hi there! I'm Alan!
+    <Box className='hero-container'>
+        <Text className='hero-title'>
+            👋 Hi there! I'm Alan!
         </Text>
-        <Text>
+        <Text className='hero-typewriter'>
             I'm a computer science + biochemistry student 
         </Text>
 
-        <Text>
+        <Text className='scroll-for-more'>
             SCROLL FOR MORE
         </Text>
     </Box>

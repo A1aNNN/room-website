@@ -1,0 +1,34 @@
+
+
+
+/* HERO */
+.hero-title {
+  font-size: 54px;
+  font-weight: bold;
+  font-family: dm-sans;
+  margin-top: 480px;
+  margin-left: 100px;
+}
+
+.hero-typewriter {
+  font-size: 38px;
+  font-family: dm-sans;
+  height: 61px;
+  margin-left: 100px;
+}
+
+.scroll-for-more {
+  font-size: 20px;
+  font-family: dm-sans;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 130px;
+}
+
+
+
+/* FONTS */
+@font-face {
+  font-family: dm-sans;
+  src: url(../public/DMSans-Medium.ttf);
+}
