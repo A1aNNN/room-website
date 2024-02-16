@@ -92,7 +92,7 @@
 
 .experiences-container {
   background-color: #E9EFF7;
-  width: 690px;
+  width: 720px;
   height: 660px;
   border-radius: 20px;
   text-align: -webkit-center;
@@ -106,23 +106,37 @@
 /* EXPERIENCE CARD */
 .experience-card-container {
   margin-top: 35px;
+  padding-bottom: 30px;
   width: 85%;
 }
 
 .experience-card-title-section {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.job-logo-image-container {
+  margin-right: 10px;
+}
+
+.job-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 20%;
 }
 
 .job-title {
-  font-size: 23px;
+  font-size: 21px;
   font-family: dm-sans;
 }
 
 .job-company {
   color: #314D73;
   margin-left: 6px;
-  font-size: 23px;
+  font-size: 21px;
   font-family: dm-sans;
   font-weight: bold;
 }
