@@ -7,11 +7,23 @@
   margin-left: 100px;
 }
 
+.hero-typewriter-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .hero-typewriter {
   font-size: 38px;
   font-family: dm-sans;
   height: 61px;
   margin-left: 100px;
+}
+
+.hero-typewriter-scroll {
+  font-size: 38px;
+  font-family: dm-sans;
+  height: 61px;
+  margin-left: 10px;
 }
 
 .scroll-for-more {
