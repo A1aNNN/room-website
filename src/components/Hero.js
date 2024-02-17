@@ -16,18 +16,6 @@ const Hero = () => {
           </Text>
           <WordsTypewriter/>
         </Box>
-        {/* <Typewriter
-          options={{
-            autostart: true,
-            loop: true,
-            delay: 40, 
-            strings: [
-              "computer science + biochemistry student",
-              "coffee enthusiast",
-              "Mario Kart fanatic",
-            ]
-          }}
-        /> */}
 
         <Text className='scroll-for-more'>
             SCROLL FOR MORE
