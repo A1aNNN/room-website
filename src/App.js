@@ -6,6 +6,7 @@ import AboutMe from './components/AboutMe';
 import Experiences from './components/Experiences';
 import Projects from './components/Projects';
 import Ending from './components/Ending';
+import { RoundedBox } from '@react-three/drei';
 
 function App() {
   return (
