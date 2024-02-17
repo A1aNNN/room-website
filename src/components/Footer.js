@@ -3,10 +3,12 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <Box>
-        <Text>
+    <Box className='footer'>
+      <Box className='footer-container'>
+        <Text className='footer-text'>
             Alan Wang © 2024
         </Text>
+      </Box>
     </Box>
   )
 }
