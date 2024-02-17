@@ -1,9 +1,14 @@
 import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
+import ProjectCard from './ProjectCard'
+import TheCouncil from './../images/thecouncil-square.png'
+import Dialog from './../images/dialog-square.png'
+import LogoGenerator from './../images/logo-generator-square.png'
 
 const projectList = [
   {
-    image: "",
+    link: "https://thecouncil.vercel.app/login",
+    image: TheCouncil,
     title: "The Council",
     date: "September 2023",
     points: [
@@ -15,10 +20,12 @@ const projectList = [
       "React Three Fiber",
       "Three.js",
       "TypeScript",
+      "Next.js"
     ]
   },
   {
-    image: "",
+    link: "https://tcs-logo-generator.vercel.app/",
+    image: LogoGenerator,
     title: "TCS Logo Generator",
     date: "January 2024",
     points: [
@@ -32,7 +39,8 @@ const projectList = [
     ]
   },
   {
-    image: "",
+    link: "https://www.dialog.courses/",
+    image: Dialog,
     title: "Dialog",
     date: "Octover 2023",
     points: [
@@ -56,6 +64,20 @@ const Projects = () => {
         <Text className='projects-section-title'>
             Projects
         </Text>
+
+        {projectList.map((project, index) => {
+          return (
+            <ProjectCard
+              link={project.link}
+              image={project.image}
+              title={project.title}
+              date={project.date}
+              points={project.points}
+              tech={project.tech}
+              key={index}
+            />
+          )
+        })}
       </Box>
     </Box>
   )
