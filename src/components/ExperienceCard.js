@@ -1,10 +1,5 @@
 import { Box, Image, Text } from '@chakra-ui/react'
 import React from 'react'
-import ProfilePicture from './../images/pfp.jpeg'
-import TCS from './../images/tcs-square.jpeg'
-import TDS from './../images/thedebtlessstudents.png'
-import LSI from './../images/lsi-logo.png'
-import UBC from './../images/ubc-logo.png'
 
 const ExperienceCard = ({image, title, company, location, points}) => {
   return (
