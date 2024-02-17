@@ -45,11 +45,13 @@
 .about-me-container {
   background-color: #E9EFF7;
   width: 670px;
-  height: 660px;
+  /* height: 660px; */
   border-radius: 20px;
   text-align: -webkit-center;
   margin-right: 80px;
   margin-top: 100px;
+  height: fit-content;
+  padding-bottom: 30px;
 }
 
 .section-title {
@@ -168,6 +170,91 @@
 }
 
 
+/* PROJECTS */
+.projects {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.projects-container {
+  background-color: #E9EFF7;
+  width: 760px;
+  /* height: 660px; */
+  border-radius: 20px;
+  text-align: -webkit-center;
+  margin-right: 80px;
+  margin-top: 100px;
+  height: fit-content;
+  padding-bottom: 30px;
+}
+
+.projects-section-title {
+  font-size: 36px;
+  font-family: dm-sans;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 65px;
+}
+
+
+/* PROJECT CARD */
+.project-card-container {
+  margin-top: 55px;
+  width: 85%;
+}
+
+.project-image-container {
+  margin-right: 40px;
+  width: 40%;
+}
+
+.project-image {
+  border-radius: 20%;
+}
+
+.project-title {
+  font-size: 23px;
+  font-family: dm-sans;
+}
+
+.project-date {
+  font-size: 19px;
+  font-family: dm-sans;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+.project-point {
+  font-size: 16px;
+  font-family: dm-sans;
+}
+
+.project-card-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project-card-main-right {
+  text-align: justify;
+  width: 100%;
+}
+
+.project-tech-stack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+
+.project-tech {
+  font-size: 12px;
+  font-family: dm-sans;
+  padding: 8px;
+  background-color: white;
+  border-radius: 5%;
+}
 
 
 
