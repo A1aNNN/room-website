@@ -17,7 +17,7 @@ const WordsTypewriter = () => {
               strings: [
                 "computer science and biochemistry student",
                 "coffee enthusiast",
-                "Mario Kart fanatic",
+                "former team Canada Mario Kart player",
                 "scuffed animator",
                 "Tetris wannabe",
               ],
