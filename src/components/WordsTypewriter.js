@@ -20,6 +20,7 @@ const WordsTypewriter = () => {
                 "former team Canada Mario Kart player",
                 "scuffed animator",
                 "Tetris wannabe",
+                "twin (older by a full 4 minutes)"
               ],
             }}/>
         </div>
