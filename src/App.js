@@ -7,19 +7,29 @@ import Experiences from './components/Experiences';
 import Projects from './components/Projects';
 import Ending from './components/Ending';
 import { RoundedBox, Scroll, ScrollControls } from '@react-three/drei';
+import TableSpongebob from './components/TableSpongebob';
+import ToonRoom from './components/ToonRoom';
+import ToonRoomFaster from './components/ToonRoomFaster.js'
+
+// BGU.computeMikkTSpaceTangents();
+
 
 function App() {
   return (
     <>
       <ScrollControls pages={6.15}>
+        
+        {/* <TableSpongebob/> */}
+        {/* <ToonRoom/> */}
+        <ToonRoomFaster/>
 
-        <RoundedBox
+        {/* <RoundedBox
           args={[1,1,1]}
           radius={0.05}
           smoothness={4}
         >
           <meshBasicMaterial/>
-        </RoundedBox>
+        </RoundedBox> */}
 
         <Scroll></Scroll>
 
