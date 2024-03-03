@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Canvas } from '@react-three/fiber';
+// import 'three/examples/jsm/utils/BufferGeometryUtils.js';
+// import * as BGU from 'three/examples/jsm/utils/BufferGeometryUtils.js';
+// import * as BufferGeometryUtils from "three/examples/jsm/utils/BufferGeometryUtils.js";
+// import * as BufferGeometryUtils from 'three/addons/utils/BufferGeometryUtils.js';
+
+// v18.12.1
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
