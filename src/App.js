@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { ChakraProvider } from '@chakra-ui/react'
 import Hero from './components/Hero';
@@ -6,18 +5,18 @@ import AboutMe from './components/AboutMe';
 import Experiences from './components/Experiences';
 import Projects from './components/Projects';
 import Ending from './components/Ending';
-import { RoundedBox, Scroll, ScrollControls } from '@react-three/drei';
-import TableSpongebob from './components/TableSpongebob';
-import ToonRoom from './components/ToonRoom';
+import { OrbitControls, PerspectiveCamera, RoundedBox, Scroll, ScrollControls } from '@react-three/drei';
+// import TableSpongebob from './components/TableSpongebob';
+// import ToonRoom from './components/ToonRoom';
 import ToonRoomFaster from './components/ToonRoomFaster.js'
-
-// BGU.computeMikkTSpaceTangents();
 
 
 function App() {
   return (
     <>
       <ScrollControls pages={6.15}>
+
+        {/* <OrbitControls/> */}
         
         {/* <TableSpongebob/> */}
         {/* <ToonRoom/> */}
