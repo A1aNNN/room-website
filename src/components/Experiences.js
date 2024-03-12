@@ -13,8 +13,8 @@ const experienceList = [
     company: "The Creative Solution",
     location: "Vancouver, BC (October 2023 - Present)",
     points: [
-      "Collaborate with clients to create React applications that employ iterative analysis and feedback loops to align with clients' objectives",
-      "Create 3D assets andanimations using Spline and Blender, to integrate into websites and elevate visual appeal",
+      "Collaborate with clients to create custom React-based websites that employ iterative analysis and feedback loops to align with clients' objectives",
+      "Architect 3D assets and animations using Spline and Blender to integrate into websites and elevate visual appeal",
     ]
   },
   {
@@ -24,6 +24,7 @@ const experienceList = [
     location: "Vancouver, BC (May 2023 - August 2023)",
     points: [
       "Developed and maintained the company website using Angular, TypeScript, and HTML/CSS ensuring optimal functionality, usability and website responsiveness",
+      "Designed and implemented new website sections through Figma prototypes"
     ]
   },
   {
@@ -32,8 +33,8 @@ const experienceList = [
     company: "UBC Tokuyama Lab",
     location: "Vancouver, BC (May 2022 - December 2022)",
     points: [
-      "Utilized Bash, R, and Python scripts to handle bulk RNA sequencing data to observe and compare the transcription levels of endogenous retroviruses within patients of different conditions",
-      "Developed an R pipeline to visualize differences in gene expression from single cell RNA sequencing data",
+      "Developed Bash, R, and Python scripts to handle bulk RNA sequencing data to observe and compare the transcription levels of endogenou retroviruses within patients of different conditions",
+      "Built an R pipeline to streamline processes in visualizing differences in gene expression from single cell RNA sequencing data",
     ]
   },
   {
@@ -42,7 +43,8 @@ const experienceList = [
     company: "UBC",
     location: "Vancouver, BC (May 2022 - December 2022)",
     points: [
-      "Assisted in the understanding of computational concepts for over 600 science students through hosting office hours, leading lab sections, creating video solutions to labs, and aiding the teaching team in lectures",
+      "Provided assistance to 600+ non-computer science students, helping them understand computational concepts",
+      "Hosted office hours and group review sessions before exams"
     ]
   },
 ]
