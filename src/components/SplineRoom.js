@@ -9,7 +9,7 @@ export default function Scene({ ...props }) {
   const { nodes, materials } = useSpline('https://prod.spline.design/GWxYbTmuKGDyqbDX/scene.splinecode')
   return (
     <>
-      <color attach="background" args={['#e8e2fa']} />
+      <color attach="background" args={['#c8cce8']} />
       <group {...props} dispose={null}>
         <scene name="Scene 1">
           <mesh
