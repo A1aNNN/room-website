@@ -5,10 +5,10 @@ import AboutMe from './components/AboutMe';
 import Experiences from './components/Experiences';
 import Projects from './components/Projects';
 import Ending from './components/Ending';
-import { OrbitControls, PerspectiveCamera, RoundedBox, Scroll, ScrollControls } from '@react-three/drei';
+import { Scroll, ScrollControls } from '@react-three/drei';
 // import TableSpongebob from './components/TableSpongebob';
 // import ToonRoom from './components/ToonRoom';
-import ToonRoomFaster from './components/ToonRoomFaster.js'
+// import ToonRoomFaster from './components/ToonRoomFaster.js'
 import SplineRoom from './components/SplineRoom'
 
 
