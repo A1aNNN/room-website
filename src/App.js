@@ -9,6 +9,7 @@ import { OrbitControls, PerspectiveCamera, RoundedBox, Scroll, ScrollControls } 
 // import TableSpongebob from './components/TableSpongebob';
 // import ToonRoom from './components/ToonRoom';
 import ToonRoomFaster from './components/ToonRoomFaster.js'
+import SplineRoom from './components/SplineRoom'
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
         
         {/* <TableSpongebob/> */}
         {/* <ToonRoom/> */}
-        <ToonRoomFaster/>
+        {/* <ToonRoomFaster/> */}
+        <SplineRoom/>
 
         {/* <RoundedBox
           args={[1,1,1]}
