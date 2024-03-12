@@ -633,7 +633,7 @@ export default function Scene({ ...props }) {
             </group>
           </group>
           <OrthographicCamera name="1" makeDefault={true} far={10000} near={-50000} />
-          <hemisphereLight name="Default Ambient Light" intensity={1.75} color="#eaeaea" />
+          <hemisphereLight name="Default Ambient Light" intensity={0.75} color="#eaeaea" />
         </scene>
       </group>
     </>
