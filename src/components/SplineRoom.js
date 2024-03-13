@@ -19,7 +19,7 @@ export default function Scene({ ...props }) {
             receiveShadow
             rotation={[0, -Math.PI / 2, 0]}
           />
-          <group name="Scene" position={[40, 76.27, 54.1]} rotation={[0.03, 0.79, 0]} scale={1.38}>
+          <group name="Scene" position={[40+40, 76.27+60, 54.1]} rotation={[0.03, 0.79, 0]} scale={1.78}>
             <mesh
               name="Cylinder 6"
               geometry={nodes['Cylinder 6'].geometry}
@@ -633,6 +633,7 @@ export default function Scene({ ...props }) {
             </group>
           </group>
           <OrthographicCamera name="1" makeDefault={true} far={10000} near={-50000} />
+          {/* <PerspectiveCamera /> */}
           <hemisphereLight name="Default Ambient Light" intensity={0.75} color="#eaeaea" />
         </scene>
       </group>

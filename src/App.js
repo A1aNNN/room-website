@@ -5,7 +5,7 @@ import AboutMe from './components/AboutMe';
 import Experiences from './components/Experiences';
 import Projects from './components/Projects';
 import Ending from './components/Ending';
-import { OrbitControls, Scroll, ScrollControls } from '@react-three/drei';
+import { Scroll, ScrollControls } from '@react-three/drei';
 // import TableSpongebob from './components/TableSpongebob';
 // import ToonRoom from './components/ToonRoom';
 // import ToonRoomFaster from './components/ToonRoomFaster.js'
@@ -17,7 +17,6 @@ function App() {
     <>
       <ScrollControls pages={6.15}>
 
-        <OrbitControls/>
         
         {/* <TableSpongebob/> */}
         {/* <ToonRoom/> */}
