@@ -26,7 +26,7 @@ const projectList = [
   {
     link: "https://tcs-logo-generator.vercel.app/",
     image: LogoGenerator,
-    title: "TCS Logo Generator",
+    title: "AI Logo Generator",
     date: "January 2024",
     points: [
       // "Developed a JavaScript React logo generator application that takes in a pre-existing logo, analyzes the image with OpenAI's Vision, and uses that as a prompt to generate a new, improved logo with OpenAI's DALL-E",
