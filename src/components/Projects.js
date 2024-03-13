@@ -3,7 +3,7 @@ import React from 'react'
 import ProjectCard from './ProjectCard'
 import TheCouncil from './../images/thecouncil-square.png'
 import Dialog from './../images/dialog-square.png'
-import LogoGenerator from './../images/logo-generator-square.png'
+import LogoGenerator from './../images/logogenerator-square.png'
 
 const projectList = [
   {
