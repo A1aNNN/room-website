@@ -44,7 +44,7 @@ const Ending = () => {
             {socials.map((social, index) => {
               return (
                 <a href={social.link} target='_blank'>
-                  <SocialIcon key={index} url={social.photo} bgColor='white' fgColor='#BAD6FB'
+                  <SocialIcon key={index} url={social.link} bgColor='white' fgColor='#BAD6FB'
                     className='social'
                   />
                 </a>
