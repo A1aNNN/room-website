@@ -5,8 +5,16 @@ import TCS from './../images/tcs-square.jpeg'
 import TDS from './../images/tds-square.png'
 import LSI from './../images/lsi-logo.png'
 import UBC from './../images/ubc-logo.png'
+import Routific from './../images/routific.png'
 
 const experienceList = [
+  {
+    image: Routific,
+    title: "Incoming Software Engineer Intern at ",
+    company: "Routific",
+    location: "Vancouver, BC (May 2024)",
+    points: []
+  },
   {
     image: TCS,
     title: "Software Developer Intern at ",
