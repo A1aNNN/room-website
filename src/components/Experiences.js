@@ -17,11 +17,11 @@ const experienceList = [
   },
   {
     image: TCS,
-    title: "Software Developer Intern at ",
+    title: "Software Developer at ",
     company: "The Creative Solution",
     location: "Vancouver, BC (October 2023 - Present)",
     points: [
-      "Collaborate with clients to create custom React-based websites that employ iterative analysis and feedback loops to align with clients' objectives",
+      "Collaborate with clients to create custom fullstack applications that employ iterative analysis and feedback loops to align with clients' objectives",
       "Architect 3D assets and animations using Spline and Blender to integrate into websites and elevate visual appeal",
     ]
   },
