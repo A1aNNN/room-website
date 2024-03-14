@@ -15,7 +15,7 @@ import SplineRoom from './components/SplineRoom'
 function App() {
   return (
     <>
-      <ScrollControls pages={6.15}>
+      <ScrollControls pages={6.45}>
 
         
         {/* <TableSpongebob/> */}
