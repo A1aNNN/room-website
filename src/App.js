@@ -23,14 +23,6 @@ function App() {
         {/* <ToonRoomFaster/> */}
         <SplineRoom/>
 
-        {/* <RoundedBox
-          args={[1,1,1]}
-          radius={0.05}
-          smoothness={4}
-        >
-          <meshBasicMaterial/>
-        </RoundedBox> */}
-
         <Scroll></Scroll>
 
         <Scroll html style={{width: '100%'}}>
