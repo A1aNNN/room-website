@@ -76,11 +76,6 @@ const Experiences = () => {
               points={experience.points}
               key={index}
             />
-            // <Box>
-            //   <Text className='experience-title'>
-            //     {experience.title}
-            //   </Text>
-            // </Box>
           )
         })}
 
