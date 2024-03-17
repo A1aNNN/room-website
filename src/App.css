@@ -72,7 +72,7 @@ html, body, #root {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.1);
+    transform: scale(1.04);
   }
 }
 
@@ -86,10 +86,6 @@ html, body, #root {
 
   animation: grow-and-shrink 4s infinite;
 }
-
-/* .scroll-for-more:hover {
-  animation: grow-and-shrink 2s infinite;
-} */
 
 
 /* ABOUT ME */
