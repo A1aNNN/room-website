@@ -270,10 +270,17 @@ html, body, #root {
 .project-image-container {
   margin-right: 40px;
   width: 40%;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  border-radius: 20%;
 }
 
 .project-image {
-  border-radius: 20%;
+  transition: transform 0.3s ease;
+}
+
+.project-image-container:hover .project-image {
+  transform: scale(1.1);
 }
 
 .project-title {
