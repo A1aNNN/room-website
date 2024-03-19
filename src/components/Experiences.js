@@ -10,7 +10,7 @@ import Routific from './../images/routific.png'
 const experienceList = [
   {
     image: Routific,
-    title: "Incoming Software Engineer Intern at ",
+    title: "Incoming Software Engineer Co-op at ",
     company: "Routific",
     location: "Vancouver, BC (May 2024)",
     points: []
@@ -37,7 +37,7 @@ const experienceList = [
   },
   {
     image: LSI,
-    title: "Bioinformatics Intern at ",
+    title: "Bioinformatics Co-op at ",
     company: "UBC Tokuyama Lab",
     location: "Vancouver, BC (May 2022 - December 2022)",
     points: [
