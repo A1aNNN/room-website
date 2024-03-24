@@ -15,12 +15,12 @@ const WordsTypewriter = () => {
               loop: true,
               delay: 40,
               strings: [
-                "computer science and biochemistry student",
-                "coffee enthusiast",
-                "former team Canada Mario Kart player",
-                "scuffed animator",
-                "Tetris wannabe",
-                "twin (older by a full 4 minutes)"
+                "computer science and biochemistry student.",
+                "coffee enthusiast.",
+                "former team Canada Mario Kart player.",
+                "scuffed animator.",
+                "Tetris wannabe.",
+                "twin (older by a full 4 minutes)."
               ],
             }}/>
         </div>
