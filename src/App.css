@@ -100,7 +100,6 @@ html, body, #root {
   background-color: rgba(233, 239, 247, 0.82);
   backdrop-filter: blur(7px);
   width: 670px;
-  /* height: 660px; */
   border-radius: 20px;
   text-align: -webkit-center;
   margin-right: 80px;
