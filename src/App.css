@@ -57,6 +57,34 @@ html, body, #root {
   backdrop-filter: blur(5px);
 }
 
+@media (max-width: 900px) {
+  .hero-title {
+    font-size: 38px;
+  }
+
+  .hero-typewriter, .hero-typewriter-scroll {
+    font-size: 22px;
+    height: 41px;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero-title {
+    margin-left: 35px;
+  }
+
+  .hero-typewriter {
+    margin-left: 35px;
+    font-size: 18px;
+  }
+
+  .hero-typewriter-scroll {
+    font-size: 18px;
+    margin-left: 0px;
+    padding-left: 6px;
+  }
+}
+
 @keyframes wobble {
   0%, 100% {
     transform: rotate(0deg);
@@ -108,7 +136,7 @@ html, body, #root {
   padding-bottom: 30px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .about-me {
     justify-content: center;
   }
@@ -182,6 +210,17 @@ html, body, #root {
   padding-bottom: 30px;
 }
 
+@media (max-width: 1000px) {
+  .experiences {
+    display: flex;
+    justify-content: center;
+  }
+
+  .experiences-container {
+    margin-left: 0px;
+  }
+}
+
 
 /* EXPERIENCE CARD */
 .experience-card-container {
@@ -235,6 +274,27 @@ html, body, #root {
   text-align: justify;
 }
 
+@media (max-width: 700px) {
+  .job-title {
+    font-size: 17px;
+  }
+
+  .job-company {
+    font-size: 17px;
+  }
+
+  .job-location {
+    font-size: 15px;
+  }
+
+  .job-point {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 580px) {
+  /* something to fix job section */
+}
 
 /* PROJECTS */
 .projects {
@@ -255,6 +315,16 @@ html, body, #root {
   margin-top: 100px;
   height: fit-content;
   padding-bottom: 30px;
+}
+
+@media (max-width: 1000px) {
+  .projects {
+    justify-content: center;
+  }
+
+  .projects-container {
+    margin-right: 0px;
+  }
 }
 
 .projects-section-title {
@@ -349,6 +419,17 @@ html, body, #root {
   margin-bottom: 50px;
   height: fit-content;
   padding-bottom: 30px;
+}
+
+@media (max-width: 1000px) {
+  .ending {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ending-container {
+    margin-left: 0px;
+  }
 }
 
 .ending-width-85 {
