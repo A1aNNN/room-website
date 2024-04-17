@@ -108,6 +108,16 @@ html, body, #root {
   padding-bottom: 30px;
 }
 
+@media (max-width: 900px) {
+  .about-me {
+    justify-content: center;
+  }
+
+  .about-me-container {
+    margin-right: 0px;
+  }
+}
+
 .section-title {
   font-size: 36px;
   font-family: dm-sans;
