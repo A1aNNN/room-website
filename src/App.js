@@ -21,7 +21,7 @@ function App() {
         {/* <TableSpongebob/> */}
         {/* <ToonRoom/> */}
         {/* <ToonRoomFaster/> */}
-        <SplineRoom/>
+        <SplineRoom scale={0.12}/>
 
         <Scroll></Scroll>
 
