@@ -4,14 +4,26 @@
 
 import useSpline from '@splinetool/r3f-spline'
 import { OrthographicCamera } from '@react-three/drei'
+import { useFrame } from '@react-three/fiber'
+import { useRef } from 'react'
 
 export default function Scene({ ...props }) {
+  
   const { nodes, materials } = useSpline('https://prod.spline.design/GWxYbTmuKGDyqbDX/scene.splinecode')
+
+  const sceneRef = useRef();
+
+  useFrame(({ clock }) => {
+    const time = clock.getElapsedTime();
+    const rotationAmplitude = 7;
+    sceneRef.current.rotation.y = 0.77 + (rotationAmplitude * Math.sin(time * 0.2) * (Math.PI / 180));
+  });
+
   return (
     <>
-      <color attach="background" args={['#c8cce8']} />
+      <color attach="background" args={['#c8cce8']}/>
       <group {...props} dispose={null}>
-        <scene name="Scene 1">
+        <scene name="Scene 1"  ref={sceneRef}>
           <mesh
             name="BG"
             geometry={nodes.BG.geometry}
@@ -19,7 +31,7 @@ export default function Scene({ ...props }) {
             receiveShadow
             rotation={[0, -Math.PI / 2, 0]}
           />
-          <group name="Scene" position={[40+40, 76.27+60, 54.1]} rotation={[0.03, 0.79, 0]} scale={1.78}>
+          <group name="Scene" position={[40+40, 76.27+60, 54.1]} rotation={[0.08, 0.89, 0]} scale={1.78} ref={sceneRef}>
             <mesh
               name="Cylinder 6"
               geometry={nodes['Cylinder 6'].geometry}
