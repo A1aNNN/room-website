@@ -14,16 +14,18 @@ export default function Scene({ ...props }) {
   const sceneRef = useRef();
 
   useFrame(({ clock }) => {
-    const time = clock.getElapsedTime();
-    const rotationAmplitude = 7;
-    sceneRef.current.rotation.y = 0.77 + (rotationAmplitude * Math.sin(time * 0.2) * (Math.PI / 180));
+    if (sceneRef.current) {
+      const time = clock.getElapsedTime();
+      const rotationAmplitude = 7;
+      sceneRef.current.rotation.y = 0.77 + (rotationAmplitude * Math.sin(time * 0.2) * (Math.PI / 180));
+    }
   });
 
   return (
     <>
       <color attach="background" args={['#c8cce8']}/>
       <group {...props} dispose={null}>
-        <scene name="Scene 1"  ref={sceneRef}>
+        <scene name="Scene 1">
           <mesh
             name="BG"
             geometry={nodes.BG.geometry}
@@ -31,7 +33,7 @@ export default function Scene({ ...props }) {
             receiveShadow
             rotation={[0, -Math.PI / 2, 0]}
           />
-          <group name="Scene" position={[40+40, 76.27+60, 54.1]} rotation={[0.08, 0.89, 0]} scale={1.78} ref={sceneRef}>
+          <group ref={sceneRef} name="Scene" position={[40+40, 76.27+60, 54.1]} rotation={[0.08, 0.89, 0]} scale={1.78}>
             <mesh
               name="Cylinder 6"
               geometry={nodes['Cylinder 6'].geometry}
