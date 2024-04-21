@@ -10,7 +10,7 @@ import Routific from './../images/routific.png'
 const experienceList = [
   {
     image: Routific,
-    title: "Incoming Software Engineer Co-op at ",
+    title: "Software Engineer Co-op at ",
     company: "Routific",
     location: "Vancouver, BC (May 2024)",
     points: []
