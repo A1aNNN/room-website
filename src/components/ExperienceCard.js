@@ -5,7 +5,7 @@ import { Box, Image, Text, Accordion,
   AccordionIcon } from '@chakra-ui/react'
 import React from 'react'
 
-const ExperienceCard = ({image, title, company, location, points}) => {
+const ExperienceCard = ({image, title, company, location, points, description }) => {
   return (
     <Box className='experience-card-container'>
 
@@ -21,21 +21,24 @@ const ExperienceCard = ({image, title, company, location, points}) => {
         </Text>
       </Box>
 
-      <Text className='job-location'>
+      {/* <Text className='job-location'>
         {location}
-      </Text>
+      </Text> */}
 
       <Accordion allowToggle>
-        <AccordionItem>
+        <AccordionItem marginTop='10px'>
           <h2>
             <AccordionButton>
-              <Box as='span' flex='1' textAlign='left' fontSize='18px' marginTop='10px'>
-                Role and duties
+              <Box as='span' flex='1' textAlign='left' fontSize='20px' marginTop='10px'>
+                {description}
               </Box>
               <AccordionIcon />
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
+            <Text className='job-location'>
+              {location}
+            </Text>
             {points.map((point, index) => {
               return (
                 <Text key={index} className='job-point'>

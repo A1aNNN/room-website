@@ -261,9 +261,11 @@ html, body, #root {
 }
 
 .job-location {
-  margin-top: 25px;
-  margin-left: 13px;
-  font-size: 19px;
+  /* margin-top: 25px;
+  margin-left: 13px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
   font-family: dm-sans;
   text-align: justify;
 }
