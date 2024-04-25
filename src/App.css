@@ -261,7 +261,8 @@ html, body, #root {
 }
 
 .job-location {
-  margin-top: 6px;
+  margin-top: 25px;
+  margin-left: 13px;
   font-size: 19px;
   font-family: dm-sans;
   text-align: justify;

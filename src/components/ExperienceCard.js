@@ -1,4 +1,8 @@
-import { Box, Image, Text } from '@chakra-ui/react'
+import { Box, Image, Text, Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon } from '@chakra-ui/react'
 import React from 'react'
 
 const ExperienceCard = ({image, title, company, location, points}) => {
@@ -21,13 +25,28 @@ const ExperienceCard = ({image, title, company, location, points}) => {
         {location}
       </Text>
 
-      {points.map((point, index) => {
-        return (
-          <Text key={index} className='job-point'>
-            • {point}
-          </Text>
-        )
-      })}
+      <Accordion allowToggle>
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box as='span' flex='1' textAlign='left' fontSize='18px' marginTop='10px'>
+                Role and duties
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel pb={4}>
+            {points.map((point, index) => {
+              return (
+                <Text key={index} className='job-point'>
+                  • {point}
+                </Text>
+              )
+            })}
+          </AccordionPanel>
+        </AccordionItem>
+      </Accordion>
+
     </Box>
   )
 }
