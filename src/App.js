@@ -10,6 +10,7 @@ import { Scroll, ScrollControls } from '@react-three/drei';
 // import ToonRoom from './components/ToonRoom';
 // import ToonRoomFaster from './components/ToonRoomFaster.js'
 import SplineRoom from './components/SplineRoom'
+import Fun from './components/Fun';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Scroll html style={{width: '100%'}}>
           <ChakraProvider>
             <div className="App">
+              <Fun/>
               <Hero/>
               <AboutMe/>
               <Experiences/>
