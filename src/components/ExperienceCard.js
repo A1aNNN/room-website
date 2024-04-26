@@ -13,32 +13,27 @@ const ExperienceCard = ({image, title, company, location, points, description })
         <Box className='job-logo-image-container'>
           <Image className='job-logo' src={image} alt='hi'/>
         </Box>
-        <Text className='job-title'>
-          {title}
-        </Text>
-        <Text className='job-company'>
-          {company}
-        </Text>
+        <Box display='flex' flexDirection='column'>
+          <Text className='job-title'>
+            {title} <span className='job-company'>{company}</span>
+          </Text>
+          <Text className='job-location'>
+            {location}
+          </Text>
+        </Box>
       </Box>
-
-      {/* <Text className='job-location'>
-        {location}
-      </Text> */}
 
       <Accordion allowToggle>
         <AccordionItem marginTop='10px'>
           <h2>
             <AccordionButton>
-              <Box as='span' flex='1' textAlign='left' fontSize='20px' marginTop='10px'>
+              <Box as='span' flex='1' textAlign='left' fontSize='18px' marginTop='10px' className='job-description'>
                 {description}
               </Box>
               <AccordionIcon />
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-            <Text className='job-location'>
-              {location}
-            </Text>
             {points.map((point, index) => {
               return (
                 <Text key={index} className='job-point'>
