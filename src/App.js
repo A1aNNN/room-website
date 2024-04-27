@@ -16,7 +16,7 @@ import Fun from './components/Fun';
 function App() {
   return (
     <>
-      <ScrollControls pages={6.45}>
+      <ScrollControls pages={7.85}>
 
         
         {/* <TableSpongebob/> */}
@@ -29,11 +29,11 @@ function App() {
         <Scroll html style={{width: '100%'}}>
           <ChakraProvider>
             <div className="App">
-              <Fun/>
               <Hero/>
               <AboutMe/>
               <Experiences/>
               <Projects/>
+              <Fun/>
               <Ending/>
             </div>
           </ChakraProvider>

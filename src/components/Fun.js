@@ -23,12 +23,6 @@ const Fun = () => {
         slidesToScroll: 1
     }
 
-    const itemsRef = useRef(null);
-    const [ isMouseDown, setIsMouseDown ] = useState(false);
-    const [ startX, setStartX ] = useState(0);
-    const [ scrollLeft, setScrollLeft ] = useState(0);
-    const [ selectedItem, setSelectedItem ] = useState(null);
-
     const logosList = [
         {
             name: "Mario Kart 8 Wii U: Playing a video game competitively",
@@ -102,6 +96,12 @@ const Fun = () => {
         }
     ]
 
+    const itemsRef = useRef(null);
+    const [ isMouseDown, setIsMouseDown ] = useState(false);
+    const [ startX, setStartX ] = useState(0);
+    const [ scrollLeft, setScrollLeft ] = useState(0);
+    const [ selectedItem, setSelectedItem ] = useState(logosList[0]);
+
 
     const handleMouseDown = (e) => {
         setIsMouseDown(true);
@@ -172,7 +172,7 @@ const Fun = () => {
                             </Box>
                         </>
                     ) : (
-                        <Text className='forFunText'>Click an item to see more!</Text>
+                        <Text className='forFunText'>Click an item to see more</Text>
                     )}
             </Box>
         </Box>
