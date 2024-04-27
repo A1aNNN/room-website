@@ -128,40 +128,54 @@ html, body, #root {
   width: 670px;
   border-radius: 20px;
   text-align: -webkit-center;
-  margin-right: 80px;
+  margin-left: 80px;
   margin-top: 100px;
   height: fit-content;
   padding-bottom: 30px;
 }
 
-.forFunCarousel {
+.fun-description {
+  font-family: dm-sans;
+  margin-top: 55px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.forFunSlider {
   width: 85%;
-  display: flex;
-  gap: 32px;
-  overflow-x: auto;
-  scrollbar-color: transparent transparent;
-  user-select: none;
-  background-color: rgb(224 232 243 / 82%);
-  margin-top: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: dm-sans;
 }
 
-.forFunCarousel::-webkit-scrollbar {
-  height: 1px;
-  background-color: transparent;
+.slick-prev:before {
+  opacity: 20%;
 }
 
-.forFunCarousel .forFunLogo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
+.forFunLogo {
   cursor: pointer;
 }
 
 .forFunText {
-  width: 85%;
+  width: 65%;
   text-align: left;
   margin-bottom: 15px;
+  font-family: dm-sans;
+}
+
+.forFunImage {
+  width: 45%;
+  border-radius: 5%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.forFunTextTitle {
+  font-size: 20px;
+  font-family: dm-sans;
+  margin-bottom: 15px;
+  margin-top: 40px;
+  width: 85%;
 }
 
 
