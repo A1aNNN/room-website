@@ -120,6 +120,7 @@ html, body, #root {
 .fun {
   width: 100%;
   display: flex;
+  justify-content: center;
 }
 
 .fun-container {
@@ -128,7 +129,7 @@ html, body, #root {
   width: 670px;
   border-radius: 20px;
   text-align: -webkit-center;
-  margin-left: 80px;
+  /* margin-left: 80px; */
   margin-top: 100px;
   height: fit-content;
   padding-bottom: 30px;
@@ -194,7 +195,8 @@ html, body, #root {
 .about-me {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
+  justify-content: center;
 }
 
 .about-me-container {
@@ -204,7 +206,7 @@ html, body, #root {
   width: 670px;
   border-radius: 20px;
   text-align: -webkit-center;
-  margin-right: 80px;
+  /* margin-left: 80px; */
   margin-top: 100px;
   height: fit-content;
   padding-bottom: 30px;
@@ -268,6 +270,8 @@ html, body, #root {
 
 .experiences {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .experiences-container {
@@ -278,7 +282,7 @@ html, body, #root {
   height: 660px;
   border-radius: 20px;
   text-align: -webkit-center;
-  margin-left: 80px;
+  /* margin-right: 80px; */
   margin-top: 100px;
   height: fit-content;
   padding-bottom: 30px;
@@ -378,7 +382,7 @@ html, body, #root {
 .projects {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .projects-container {
@@ -389,7 +393,7 @@ html, body, #root {
   /* height: 660px; */
   border-radius: 20px;
   text-align: -webkit-center;
-  margin-right: 80px;
+  /* margin-right: 80px; */
   margin-top: 100px;
   height: fit-content;
   padding-bottom: 30px;
@@ -484,7 +488,7 @@ html, body, #root {
 .ending {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .ending-container {
@@ -495,7 +499,7 @@ html, body, #root {
   border-radius: 20px;
   text-align: -webkit-center;
   /* margin-left: 80px; */
-  margin-right: 80px;
+  /* margin-right: 80px; */
   margin-top: 100px;
   margin-bottom: 50px;
   height: fit-content;
