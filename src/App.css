@@ -140,6 +140,7 @@ html, body, #root {
   margin-top: 55px;
   margin-bottom: 40px;
   font-size: 20px;
+  width: 65%;
 }
 
 .forFunSlider {
@@ -149,9 +150,9 @@ html, body, #root {
   font-family: dm-sans;
 }
 
-.slick-prev:before {
-  opacity: 20%;
-}
+/* .slick-prev:before, .slick-next:before {
+  color: blue;
+} */
 
 .forFunLogo {
   cursor: pointer;

@@ -138,7 +138,7 @@ const Fun = () => {
             </Text>
 
             <Text className='fun-description'>
-                A collection of random stuff that I've been up to!
+                Scroll through to see a collection of random stuff that I've been up to!
             </Text>
 
             <Box className='forFunCarousel' ref={itemsRef}
