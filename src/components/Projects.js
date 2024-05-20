@@ -4,8 +4,24 @@ import ProjectCard from './ProjectCard'
 import TheCouncil from './../images/thecouncil-square.png'
 import Dialog from './../images/dialog-square.png'
 import LogoGenerator from './../images/logogenerator-square.png'
+import RecallRehearsal from './../images/RecallRehearsal-square.svg'
 
 const projectList = [
+  {
+    link: "https://recall-rehearsal.vercel.app/",
+    image: RecallRehearsal,
+    title: "Recall Rehearsal",
+    date: "May 2024",
+    points: [
+      " a study VR application aimed on the Feynman learning technique. A style of learning centered around being able to teach others to identify gaps in your own knowledge.",
+      "Awarded Best Use of AI and 3rd place overall at StormHacks 2024"
+    ],
+    tech: [
+      "React",
+      "React Three Fiber",
+      "JavaScript"
+    ]
+  },
   {
     link: "https://thecouncil.vercel.app/login",
     image: TheCouncil,
