@@ -13,7 +13,7 @@ const projectList = [
     title: "Recall Rehearsal",
     date: "May 2024",
     points: [
-      "A study VR application aimed on the Feynman learning technique. A style of learning centered around being able to teach others to identify gaps in your own knowledge.",
+      "A VR study application aimed on the Feynman learning technique. A style of learning centered around being able to teach others to identify gaps in your own knowledge.",
       "Awarded Best Use of AI and 3rd place overall at StormHacks 2024"
     ],
     tech: [
