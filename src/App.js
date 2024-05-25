@@ -16,7 +16,7 @@ import Fun from './components/Fun';
 function App() {
   return (
     <>
-      <ScrollControls pages={8.28}>
+      <ScrollControls pages={8.48}>
 
         
         {/* <TableSpongebob/> */}
