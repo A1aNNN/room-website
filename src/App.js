@@ -9,7 +9,7 @@ import { Scroll, ScrollControls } from '@react-three/drei';
 // import TableSpongebob from './components/TableSpongebob';
 // import ToonRoom from './components/ToonRoom';
 // import ToonRoomFaster from './components/ToonRoomFaster.js'
-import SplineRoom from './components/SplineRoom'
+// import SplineRoom from './components/SplineRoom'
 import Cafe from './components/Cafe'
 import Fun from './components/Fun';
 import useOnScreen from './components/useOnScreen';
