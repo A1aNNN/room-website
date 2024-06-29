@@ -9,7 +9,8 @@ import { Scroll, ScrollControls } from '@react-three/drei';
 // import TableSpongebob from './components/TableSpongebob';
 // import ToonRoom from './components/ToonRoom';
 // import ToonRoomFaster from './components/ToonRoomFaster.js'
-import SplineRoom from './components/SplineRoom'
+// import SplineRoom from './components/SplineRoom'
+import Cafe from './components/Cafe'
 import Fun from './components/Fun';
 import useOnScreen from './components/useOnScreen';
 import { useRef } from 'react';
@@ -34,7 +35,8 @@ function App() {
     <>
       <ScrollControls pages={8.48}>
 
-        <SplineRoom scale={0.12}/>
+        {/* <SplineRoom scale={0.12}/> */}
+        <Cafe/>
 
         <Scroll></Scroll>
 

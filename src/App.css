@@ -12,9 +12,7 @@ html, body, #root {
 
 /* HERO */
 .hero-intro-container {
-  /* width: fit-content; */
-  /* background-color: rgba(233, 239, 247, 0.82);
-  backdrop-filter: blur(7px); */
+  margin-bottom: 200px;
 }
 
 .hero-title {
