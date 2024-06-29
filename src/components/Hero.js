@@ -17,9 +17,9 @@ const Hero = () => {
         </Box>
       </Box>
 
-        <Text className='scroll-for-more'>
+        {/* <Text className='scroll-for-more'>
             SCROLL FOR MORE
-        </Text>
+        </Text> */}
     </Box>
   )
 }
