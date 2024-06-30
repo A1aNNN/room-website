@@ -9,21 +9,28 @@ export default function Scene({ ...props }) {
 
   const sceneRef = useRef();
   const cameraRef = useRef();
+  const roofCupRef = useRef();
 
-  useFrame((state) => {
+  useFrame((state, delta) => {
     if (cameraRef.current) {
       const { pointer } = state;
       const newPosition = [pointer.x * 2, 1 + pointer.y * 1.5, 16 + Math.atan(pointer.x * 2)];
       cameraRef.current.position.lerp(new THREE.Vector3(...newPosition), 0.1);
       cameraRef.current.lookAt(sceneRef.current.position);
     }
+
+    if (roofCupRef.current) {
+        roofCupRef.current.rotation.y += delta * 0.5; // Adjust rotation speed by changing 0.5
+    }
   });
 
   return (
     <>
-      <color attach="background" args={['#1D1D1F']} />
+    {/* <color attach="background" args={['#1D1D1F']} /> */}
+      <color attach="background" args={['#181818']} />
       <group {...props} dispose={null} position={[10, 1, 0]}>
         <scene name="Scene 1" ref={sceneRef}>
+        <pointLight position={[10, 10, 10]} intensity={10} color="#8B0000" />
         <group name="cafe scene" position={[-170, -260, 0]} scale={0.6} rotation={[0, 0, 0]}>
         <group name="Cafe sign post" position={[-306.61, 213.02, 550.48]} rotation={[0, Math.PI / 9, 0.09]} scale={1}>
             <group name="Sign 2" position={[-8.27, 8.37, -10.85]} rotation={[Math.PI, 0, 2.79]} scale={0.74}>
@@ -606,9 +613,11 @@ export default function Scene({ ...props }) {
           </group>
           <group
             name="Roof Coffee Cup"
-            position={[-52.22, 886.28, -25.31]}
+            //original x was -52
+            position={[2.22, 886.28, -25.31]}
             rotation={[-Math.PI, 0, -Math.PI]}
             scale={1}
+            ref={roofCupRef}
           >
             <group name="Coffee Cup" rotation={[0, 0, -0.26]}>
               <mesh
