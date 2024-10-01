@@ -5,8 +5,44 @@ import TheCouncil from './../images/thecouncil-square.png'
 import Dialog from './../images/dialog-square.png'
 import LogoGenerator from './../images/logogenerator-square.png'
 import RecallRehearsal from './../images/RecallRehearsal-square.svg'
+import Stupaid from './../images/stupaid.png'
+import Flashback from './../images/htn.jpg'
 
 const projectList = [
+  {
+    link: "https://youtu.be/I5dP9mbnx4M?t=8062",
+    image: Flashback,
+    title: "Flashback",
+    date: "Sept 2024",
+    points: [
+      "A VR application using Unity and C# for an interactive virtual reality, where user-uploaded memories are transformed into immersive art exhibits",
+      "Finalist at Hack the North 2024 (Canada's biggest hackathon)",
+    ],
+    tech: [
+      "Unity",
+      "C#",
+      "React",
+      "JavaScript",
+      "Convex"
+    ]
+  },
+  {
+    link: "https://www.stupaid.work/home",
+    image: Stupaid,
+    title: "Stupaid",
+    date: "March 2024 - July 2024",
+    points: [
+      "A full-stack JavaScript React + Express backend application to connect students with paid project opportunities from local businesses",
+      "Built a real-time chat feature with file upload using Socket.io"
+    ],
+    tech: [
+      "React",
+      "JavaScript",
+      "Node.js",
+      "Firebase",
+      "Socket.io"
+    ]
+  },
   {
     link: "https://recall-rehearsal.vercel.app/",
     image: RecallRehearsal,
@@ -14,12 +50,14 @@ const projectList = [
     date: "May 2024",
     points: [
       "A VR study application aimed on the Feynman learning technique. A style of learning centered around being able to teach others to identify gaps in your own knowledge.",
-      "Awarded Best Use of AI and 3rd place overall at StormHacks 2024"
+      "Best Use of AI and 3rd place overall at StormHacks 2024"
     ],
     tech: [
       "React",
       "React Three Fiber",
-      "JavaScript"
+      "JavaScript",
+      "Unity",
+      "C#"
     ]
   },
   {
@@ -29,7 +67,7 @@ const projectList = [
     date: "September 2023",
     points: [
       "A TypeScript React web application that leveraged React Three Fiber, Three.js and GPT-4 to provide users with a diverse range of AI-generated perspectives on everyday problems",
-      "Finalist at Hack the North 2023 out of field of 250+ project submissions and 1000+ hackers",
+      "Finalist at Hack the North 2023 (Canada's biggest hackathon)",
     ],
     tech: [
       "React",
