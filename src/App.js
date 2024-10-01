@@ -6,10 +6,7 @@ import Experiences from './components/Experiences';
 import Projects from './components/Projects';
 import Ending from './components/Ending';
 import { Scroll, ScrollControls } from '@react-three/drei';
-// import TableSpongebob from './components/TableSpongebob';
-// import ToonRoom from './components/ToonRoom';
-// import ToonRoomFaster from './components/ToonRoomFaster.js'
-import SplineRoom from './components/SplineRoom'
+import Cafe from './components/Cafe'
 import Fun from './components/Fun';
 import useOnScreen from './components/useOnScreen';
 import { useRef } from 'react';
@@ -32,9 +29,11 @@ const Section = ({ children }) => {
 function App() {
   return (
     <>
+    <color attach="background" args={['#333333']} />
       <ScrollControls pages={8.48}>
 
-        <SplineRoom scale={0.12}/>
+        {/* <SplineRoom scale={0.12}/> */}
+        <Cafe/>
 
         <Scroll></Scroll>
 
