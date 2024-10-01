@@ -12,7 +12,8 @@ import bowling from './../images/alan_bowling.jpg'
 import handstand from './../images/alan_handstand.jpg'
 import nwhacks from './../images/alan_nwhacks.jpg'
 import nugget_amongus from './../images/Nugget_AmongUs.gif'
-import room from './../images/3droom.jpg'
+// import room from './../images/3droom.jpg'
+import magneton3d from './../images/magneton.png'
 
 const Fun = () => {
     const settings = {
@@ -91,7 +92,7 @@ const Fun = () => {
             name: "3D 🍩",
             logoImage: "image-path",
             description: "From trying out the famous 3D donut tutorial on Blender, to moving to the program Spline, 3D modelling has been an interest of mine for a while.\nEven the background of this personal website is a 3D room, and I've always wanted to create a website that incorporates 3D aspects.",
-            image: room,
+            image: magneton3d,
             icon: "3D"
         }
     ]
