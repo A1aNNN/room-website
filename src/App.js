@@ -30,7 +30,7 @@ function App() {
   return (
     <>
     <color attach="background" args={['#333333']} />
-      <ScrollControls pages={9.0}>
+      <ScrollControls pages={11.0}>
 
         {/* <SplineRoom scale={0.12}/> */}
         <Cafe/>

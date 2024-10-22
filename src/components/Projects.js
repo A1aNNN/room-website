@@ -7,8 +7,25 @@ import LogoGenerator from './../images/logogenerator-square.png'
 import RecallRehearsal from './../images/RecallRehearsal-square.svg'
 import Stupaid from './../images/stupaid.png'
 import Flashback from './../images/htn.jpg'
+import SpectaCare from './../images/spectacare.jpg'
 
 const projectList = [
+  {
+    link: "https://devpost.com/software/spectacare?ref_content=user-portfolio&ref_feature=in_progress",
+    image: SpectaCare,
+    title: "SpectaCare",
+    date: "Oct 2024",
+    points: [
+      "An AR application using Snap's Lens Studio and their Spectacles, designed to assist doctors during consultations by providing real-time diagnoses, scribing, and suggested follow-up questions directly in their field of view",
+    ],
+    tech: [
+      "Lens Studio",
+      "Snap AR Spectacles 5",
+      "Python",
+      "JavaScript",
+      "React",
+    ]
+  },
   {
     link: "https://youtu.be/I5dP9mbnx4M?t=8062",
     image: Flashback,
