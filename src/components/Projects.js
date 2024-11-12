@@ -8,6 +8,7 @@ import RecallRehearsal from './../images/RecallRehearsal-square.svg'
 import Stupaid from './../images/stupaid.png'
 import Flashback from './../images/htn.jpg'
 import SpectaCare from './../images/spectacare.jpg'
+import PersonalWebsite from './../images/personal-website.png'
 
 const projectList = [
   {
@@ -61,6 +62,20 @@ const projectList = [
     ]
   },
   {
+    link: "https://alan-wang-website.vercel.app/",
+    image: PersonalWebsite,
+    title: "Personal Portfolio Website",
+    date: "April 2024",
+    points: [
+      "The website you're currently on 😎"
+    ],
+    tech: [
+      "React",
+      "React Three Fiber",
+      "Spline"
+    ]
+  },
+  {
     link: "https://recall-rehearsal.vercel.app/",
     image: RecallRehearsal,
     title: "Recall Rehearsal",
@@ -75,23 +90,6 @@ const projectList = [
       "JavaScript",
       "Unity",
       "C#"
-    ]
-  },
-  {
-    link: "https://thecouncil.vercel.app/login",
-    image: TheCouncil,
-    title: "The Council",
-    date: "September 2023",
-    points: [
-      "A TypeScript React web application that leveraged React Three Fiber, Three.js and GPT-4 to provide users with a diverse range of AI-generated perspectives on everyday problems",
-      "Finalist at Hack the North 2023 (Canada's biggest hackathon)",
-    ],
-    tech: [
-      "React",
-      "React Three Fiber",
-      "Three.js",
-      "TypeScript",
-      "Next.js"
     ]
   },
   {
@@ -124,6 +122,23 @@ const projectList = [
       "React Three Fiber",
       "Three.js",
       "TypeScript",
+    ]
+  },
+  {
+    link: "https://thecouncil.vercel.app/login",
+    image: TheCouncil,
+    title: "The Council",
+    date: "September 2023",
+    points: [
+      "A TypeScript React web application that leveraged React Three Fiber, Three.js and GPT-4 to provide users with a diverse range of AI-generated perspectives on everyday problems",
+      "Finalist at Hack the North 2023 (Canada's biggest hackathon)",
+    ],
+    tech: [
+      "React",
+      "React Three Fiber",
+      "Three.js",
+      "TypeScript",
+      "Next.js"
     ]
   },
 ]
