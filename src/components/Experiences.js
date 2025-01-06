@@ -55,7 +55,7 @@ const experienceList = [
     image: UBC,
     title: "Undergraduate Teaching Assistant at ",
     company: "UBC",
-    location: "Vancouver, BC (May 2022 - December 2022)",
+    location: "Vancouver, BC (Sept 2020 - December 2021)",
     points: [
       "Provided assistance to 600+ non-computer science students, helping them understand computational concepts",
       "Hosted office hours and group review sessions before exams"
