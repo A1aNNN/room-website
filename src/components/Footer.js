@@ -6,7 +6,7 @@ const Footer = () => {
     <Box className='footer'>
       <Box className='footer-container'>
         <Text className='footer-text'>
-            Alan Wang © 2024
+            Alan Wang © 2025
         </Text>
       </Box>
     </Box>
