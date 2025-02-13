@@ -17,10 +17,11 @@ const WordsTypewriter = () => {
               strings: [
                 "computer science and biochemistry student.",
                 "coffee enthusiast.",
-                "former team Canada Mario Kart player.",
-                "scuffed animator.",
+                "team Canada Mario Kart player.",
+                "scuffed 3D modeller.",
+                "Netflix show binger",
                 "Tetris wannabe.",
-                "twin (older by a full 4 minutes)."
+                "twin (older by a full 4 minutes).",
               ],
             }}/>
         </div>
