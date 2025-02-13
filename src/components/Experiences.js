@@ -34,7 +34,7 @@ const experienceList = [
     image: TCS,
     title: "Full Stack Developer at ",
     company: "The Creative Solution",
-    location: "Vancouver, BC (October 2023 - Present)",
+    location: "Vancouver, BC (October 2023 - October 2024)",
     points: [
       "Built and shipped custom applications for clients",
       "Made 3D assets and animations with Spline and Blender to add some pizzazz",
