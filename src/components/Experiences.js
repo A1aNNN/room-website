@@ -6,26 +6,38 @@ import TDS from './../images/tds-square.png'
 import LSI from './../images/lsi-logo.png'
 import UBC from './../images/ubc-logo.png'
 import Routific from './../images/routific.png'
+import Arcteryx from './../images/arcteryx.png'
 
 const experienceList = [
   {
-    image: Routific,
-    title: "Software Engineer Co-op at ",
-    company: "Routific",
-    location: "Vancouver, BC (May 2024 - Present)",
+    image: Arcteryx,
+    title: "Incoming Software Engineer Intern at ",
+    company: "Arc'teryx",
+    location: "Vancouver, BC (May 2025 - August 2025)",
     points: [
-      "TBD"
+      "Incoming on the Select team"
+    ],
+    description: "I <3 my Beta AR 🧗‍♂️"
+  },
+  {
+    image: Routific,
+    title: "Software Engineer Intern at ",
+    company: "Routific",
+    location: "Vancouver, BC (May 2024 - January 2025)",
+    points: [
+      "Built and shipped features alongside the Delivery Management team",
+      "Worked on the web app + internal component library"
     ],
     description: "*Skrt skrt* 📍"
   },
   {
     image: TCS,
-    title: "Software Developer at ",
+    title: "Full Stack Developer at ",
     company: "The Creative Solution",
     location: "Vancouver, BC (October 2023 - Present)",
     points: [
-      "Collaborate with clients to create custom fullstack applications that employ iterative analysis and feedback loops to align with clients' objectives",
-      "Architect 3D assets and animations using Spline and Blender to integrate into websites and elevate visual appeal",
+      "Built and shipped custom applications for clients",
+      "Made 3D assets and animations with Spline and Blender to add some pizzazz",
     ],
     description: "Design agency things 🎇"
   },
@@ -35,19 +47,17 @@ const experienceList = [
     company: "The Debtless Students", 
     location: "Vancouver, BC (May 2023 - August 2023)",
     points: [
-      "Developed and maintained the company website using Angular, TypeScript, and HTML/CSS ensuring optimal functionality, usability and website responsiveness",
-      "Designed and implemented new website sections through Figma prototypes"
+      "Developed and maintained the company website with TypeScript Angular, TypeScript"
     ],
     description: "Angular > React ? 💭"
   },
   {
     image: LSI,
-    title: "Bioinformatics Co-op at ",
+    title: "Bioinformatics Intern at ",
     company: "UBC Tokuyama Lab",
     location: "Vancouver, BC (May 2022 - December 2022)",
     points: [
-      "Developed Bash, R, and Python scripts to handle bulk RNA sequencing data to observe and compare the transcription levels of endogenou retroviruses within patients of different conditions",
-      "Built an R pipeline to streamline processes in visualizing differences in gene expression from single cell RNA sequencing data",
+      "Wrote scripts in R and Python to analyze bulk and single cell RNA sequencing data",
     ],
     description: "Life-sciencing it up 🧬"
   },
@@ -57,8 +67,8 @@ const experienceList = [
     company: "UBC",
     location: "Vancouver, BC (Sept 2020 - December 2021)",
     points: [
-      "Provided assistance to 600+ non-computer science students, helping them understand computational concepts",
-      "Hosted office hours and group review sessions before exams"
+      "Helped 600+ students wrap their heads around computational concepts",
+      "Hosted office hours and review sessions because last-minute cramming is inevitable"
     ],
     description: "'Did you check the syllabus?' 🍎"
   },
