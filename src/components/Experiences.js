@@ -11,11 +11,21 @@ import Arcteryx from './../images/arcteryx.png'
 const experienceList = [
   {
     image: Arcteryx,
-    title: "Incoming Software Engineer Intern at ",
+    title: "Incoming Software Engineer at ",
+    company: "Arc'teryx",
+    location: "Vancouver, BC (September 2025)",
+    points: [
+      "On the Select team working on the customer facing ecommerce site"
+    ],
+    description: "Into the real world 🎓"
+  },
+  {
+    image: Arcteryx,
+    title: "Software Engineer Intern at ",
     company: "Arc'teryx",
     location: "Vancouver, BC (May 2025 - August 2025)",
     points: [
-      "Incoming on the Select team"
+      "On the Select team working on the customer facing ecommerce site"
     ],
     description: "I <3 my Beta AR 🧗‍♂️"
   },
@@ -44,7 +54,7 @@ const experienceList = [
   {
     image: TDS,
     title: "Web Developer Intern at ",
-    company: "The Debtless Students", 
+    company: "The Debtless Students",
     location: "Vancouver, BC (May 2023 - August 2023)",
     points: [
       "Developed and maintained the company website with TypeScript Angular, TypeScript"
