@@ -11,13 +11,13 @@ import Arcteryx from './../images/arcteryx.png'
 const experienceList = [
   {
     image: Arcteryx,
-    title: "Incoming Software Engineer at ",
+    title: "Associate Software Engineer at ",
     company: "Arc'teryx",
-    location: "Vancouver, BC (September 2025)",
+    location: "Vancouver, BC (September 2025 - Present)",
     points: [
       "On the Select team working on the customer facing ecommerce site"
     ],
-    description: "Into the real world 🎓"
+    description: "Developer by day, climbing V1s by night 🧑‍💻"
   },
   {
     image: Arcteryx,
