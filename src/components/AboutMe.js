@@ -18,12 +18,12 @@ const AboutMe = () => {
           Columbia studying computer science and biochemistry.
           <br />
           <br />
-          Despite being a retired swimmer (or should I say "swammer"), I'm still always on the move.
-          Volleyball, ping pong, or even gearing up for a 10k race, I'm there if it means staying active!
+          Despite being a retired competitive swimmer, I’m still trying my best to get off the couch. Whether it’s volleyball,
+          climbing, or butchering my swings at pitch and putt, I’m always up for something active (even if I’m terrible at it).
           <br />
           <br />
-          Otherwise, you might catch me sipping my 10th coffee for the day, heading to a Mario Kart tournament,
-          or chilling at home trying to make a scuffed 3D donut on Blender.
+          Otherwise, you might catch me browsing the Nespresso catalog, traveling for a Mario Kart tournament,
+          or chilling at home binging a Netflix show 😎
           <br />
           <br />
           Want to connect? Drop by the bottom of my site to find my socials!

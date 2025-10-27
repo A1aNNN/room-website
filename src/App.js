@@ -29,40 +29,40 @@ const Section = ({ children }) => {
 function App() {
   return (
     <>
-    <color attach="background" args={['#333333']} />
-      <ScrollControls pages={11.0}>
+      <color attach="background" args={['#333333']} />
+      <ScrollControls pages={12.5}>
 
         {/* <SplineRoom scale={0.12}/> */}
-        <Cafe/>
+        <Cafe />
 
         <Scroll></Scroll>
 
-        <Scroll html style={{width: '100%'}}>
+        <Scroll html style={{ width: '100%' }}>
           <ChakraProvider>
             <div className="App">
-              
+
               <Section>
-                <Hero/>
-              </Section>
-              
-              <Section>
-                <AboutMe/>
-              </Section>
-              
-              <Section>
-                <Experiences/>
+                <Hero />
               </Section>
 
               <Section>
-                <Projects/>
+                <AboutMe />
               </Section>
 
               <Section>
-                <Fun/>
+                <Experiences />
               </Section>
 
               <Section>
-                <Ending/>
+                <Projects />
+              </Section>
+
+              <Section>
+                <Fun />
+              </Section>
+
+              <Section>
+                <Ending />
               </Section>
             </div>
           </ChakraProvider>
