@@ -27,7 +27,7 @@ export default function Scene({ isDarkMode = true, ...props }) {
   return (
     <>
       {/* <color attach="background" args={['#1D1D1F']} /> */}
-      <color attach="background" args={[isDarkMode ? '#1E1A3D' : '#FFB88C']} />
+      <color attach="background" args={[isDarkMode ? '#2B273F' : '#FFB88C']} />
       <group {...props} dispose={null} position={[10, 1, 0]}>
         <scene name="Scene 1" ref={sceneRef}>
           <pointLight position={[10, 10, 10]} intensity={10} color="#8B0000" />
