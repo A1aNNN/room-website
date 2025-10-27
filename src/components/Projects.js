@@ -9,8 +9,25 @@ import Stupaid from './../images/stupaid.png'
 import Flashback from './../images/htn.jpg'
 import SpectaCare from './../images/spectacare.jpg'
 import PersonalWebsite from './../images/personal-website.png'
+import MKMii from './../images/mkmii2.png'
 
 const projectList = [
+  {
+    link: "https://www.mkmii.com/",
+    image: MKMii,
+    title: "MKMii",
+    date: "September 2025",
+    points: [
+      "A personal time trial tracker for Mario Kart World",
+      "Allows users to view their best times and progression in a list view or a driveable map view"
+    ],
+    tech: [
+      "React",
+      "JavaScript",
+      "Supabase",
+      "React Three Fiber",
+    ]
+  },
   {
     link: "https://devpost.com/software/spectacare?ref_content=user-portfolio&ref_feature=in_progress",
     image: SpectaCare,
@@ -149,7 +166,7 @@ const Projects = () => {
     <Box className='projects'>
       <Box className='projects-container'>
         <Text className='projects-section-title'>
-            Projects
+          Projects
         </Text>
 
         {projectList.map((project, index) => {

@@ -1,6 +1,7 @@
 import { Box, Text, Image } from '@chakra-ui/react'
 import React from 'react'
-import ProfilePicture from './../images/pfp.jpeg'
+// import ProfilePicture from './../images/pfp.jpeg'
+import ProfilePicture from './../images/headshot_cruise.JPG'
 
 const AboutMe = () => {
   return (

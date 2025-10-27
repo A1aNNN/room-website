@@ -7,7 +7,8 @@ import running10k from './../images/10k.jpg'
 import stormthewall from './../images/ubcstw.jpg'
 import swimming from './../images/alanswimming.jpg'
 import mariokart1 from './../images/bobc.jpg'
-import mariokart2 from './../images/sus_mariokart.jpg'
+// import mariokart2 from './../images/sus_mariokart.jpg'
+import mariokart2 from './../images/pax_west.jpg'
 import bowling from './../images/alan_bowling.jpg'
 import handstand from './../images/alan_handstand.jpg'
 import nwhacks from './../images/alan_nwhacks.jpg'
@@ -15,6 +16,7 @@ import nugget_amongus from './../images/Nugget_AmongUs.gif'
 // import room from './../images/3droom.jpg'
 import magneton3d from './../images/magneton.png'
 import mariokart3 from './../images/MKWorld_Top10.png'
+import climbing from './../images/climbing.jpg'
 
 const Fun = () => {
   const settings = {
@@ -32,6 +34,13 @@ const Fun = () => {
       description: "Despite being considered a 'party game', Mario Kart actually has a competitive community with players all around the world. I can't really remember how or when I decided to take it a step further from just playing casually with friends, but I picked up a controller and I guess the rest is history.\nTop placement: 2nd in the world and 1st in North America (2017)",
       image: mariokart1,
       icon: "Mario Kart 8 (Wii U)"
+    },
+    {
+      name: "Climbing",
+      logoImage: "image-path",
+      description: "This summer I started working beside a climbing gym and decided to give in to the tech bro stereotype 🤓\nCurrent grade climbed: V5",
+      image: climbing,
+      icon: "Climbing"
     },
     {
       name: "Mario Kart 8 Deluxe: Playing a video game competitively pt. 2",
