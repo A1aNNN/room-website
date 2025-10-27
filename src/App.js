@@ -9,7 +9,7 @@ import { Scroll, ScrollControls } from '@react-three/drei';
 import Cafe from './components/Cafe'
 import Fun from './components/Fun';
 import useOnScreen from './components/useOnScreen';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 
 const Section = ({ children }) => {
   const ref = useRef();
@@ -27,13 +27,15 @@ const Section = ({ children }) => {
 };
 
 function App() {
+  const [isDarkMode, setIsDarkMode] = useState(true);
+
   return (
     <>
       <color attach="background" args={['#333333']} />
       <ScrollControls pages={12.5}>
 
         {/* <SplineRoom scale={0.12}/> */}
-        <Cafe />
+        <Cafe isDarkMode={isDarkMode} />
 
         <Scroll></Scroll>
 
@@ -42,7 +44,7 @@ function App() {
             <div className="App">
 
               <Section>
-                <Hero />
+                <Hero isDarkMode={isDarkMode} toggleMode={() => setIsDarkMode(!isDarkMode)} />
               </Section>
 
               <Section>

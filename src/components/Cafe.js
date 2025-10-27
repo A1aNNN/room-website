@@ -4,7 +4,7 @@ import { OrthographicCamera } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 import { useRef } from 'react'
 
-export default function Scene({ ...props }) {
+export default function Scene({ isDarkMode = true, ...props }) {
   const { nodes, materials } = useSpline('https://prod.spline.design/IkLyWrRJs1Uq5Ge6/scene.splinecode')
 
   const sceneRef = useRef();
@@ -27,7 +27,7 @@ export default function Scene({ ...props }) {
   return (
     <>
       {/* <color attach="background" args={['#1D1D1F']} /> */}
-      <color attach="background" args={['#181818']} />
+      <color attach="background" args={[isDarkMode ? '#181818' : '#FFB88C']} />
       <group {...props} dispose={null} position={[10, 1, 0]}>
         <scene name="Scene 1" ref={sceneRef}>
           <pointLight position={[10, 10, 10]} intensity={10} color="#8B0000" />
@@ -1518,7 +1518,7 @@ export default function Scene({ ...props }) {
             <directionalLight
               name="Directional Light 2"
               castShadow
-              intensity={2.0}
+              intensity={isDarkMode ? 2.0 : 1.8}
               shadow-mapSize-width={4096}
               shadow-mapSize-height={4096}
               shadow-camera-near={-10000}
@@ -1528,13 +1528,13 @@ export default function Scene({ ...props }) {
               shadow-camera-top={2000}
               shadow-camera-bottom={-2000}
               shadow-bias={-0.00005}
-              color="#ff9999"
+              color={isDarkMode ? "#ff9999" : "#FF9A6C"}
               position={[370.71, 1519.2, -309.92]}
             />
             <directionalLight
               name="Directional Light"
               castShadow
-              intensity={0.8}
+              intensity={isDarkMode ? 0.8 : 0.6}
               shadow-mapSize-width={4096}
               shadow-mapSize-height={4096}
               shadow-camera-near={-10000}
@@ -1544,12 +1544,12 @@ export default function Scene({ ...props }) {
               shadow-camera-top={2000}
               shadow-camera-bottom={-2000}
               shadow-bias={-0.00005}
-              color="#b3d9ff"
+              color={isDarkMode ? "#b3d9ff" : "#FFCBA4"}
               position={[2227.31, 1115.98, 1880.85]}
             />
             {/* <OrthographicCamera name="1" makeDefault={true} far={10000} near={-50000} /> */}
             {/* <OrthographicCamera ref={cameraRef} name="1" makeDefault={true} position={[2000, 20000, 2000]} rotation={[0, 0, 0]} far={10000} near={-50000} /> */}
-            <hemisphereLight name="Default Ambient Light" intensity={0.15} color="#eaeaea" />
+            <hemisphereLight name="Default Ambient Light" intensity={isDarkMode ? 0.15 : 0.35} color={isDarkMode ? "#eaeaea" : "#FFDAB9"} />
           </group>
           <OrthographicCamera ref={cameraRef} name="1" makeDefault={true} position={[20000, 20000, 200]} rotation={[0, 0, 0]} far={10000} near={-50000} />
         </scene>
